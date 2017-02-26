@@ -32,7 +32,7 @@ public class GitHubService <T> {
     }
 
     @Bean
-    public RestTemplate restTemplate() {
+    public RestTemplate getTemplate() {
         return new RestTemplate();
     }
 
