@@ -1,7 +1,6 @@
 package async;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.stereotype.Component;
 import org.springframework.util.concurrent.ListenableFuture;
 import org.springframework.util.concurrent.ListenableFutureCallback;
@@ -24,7 +23,7 @@ public class GitHubRequestController {
     @Autowired
     private GitHubService gitHubService;
 
-    @RequestMapping(value="")
+    @RequestMapping(value="", method=RequestMethod.GET)
     public DeferredResult<GitHubUser> getDefaultUser () {
         DeferredResult<GitHubUser> result = new DeferredResult<GitHubUser>();
         ListenableFuture<GitHubUser> user;
