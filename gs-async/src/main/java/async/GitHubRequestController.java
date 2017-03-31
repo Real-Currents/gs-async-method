@@ -13,7 +13,7 @@ import org.springframework.web.context.request.async.DeferredResult;
 import java.util.concurrent.Future;
 
 /**
- * Created by revlin on 2/25/17.
+ * Created by John H on 2/25/17.
  */
 @Component
 @RestController

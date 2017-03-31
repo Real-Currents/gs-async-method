@@ -3,7 +3,7 @@ package async;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 /**
- * Created by revlin on 2/25/17.
+ * Created by John H on 2/25/17.
  */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class GitHubUser {

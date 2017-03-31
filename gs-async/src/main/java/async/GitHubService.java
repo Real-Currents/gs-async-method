@@ -10,7 +10,7 @@ import org.springframework.util.concurrent.ListenableFuture;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * Created by revlin on 2/25/17.
+ * Created by John H on 2/25/17.
  */
 @Service
 public class GitHubService <T> {
